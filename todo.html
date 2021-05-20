@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css\to-do-list.css">
+        <title> Todo list</title>
+    </head>
+    <body class="bg"> 
+        <div class="container">
+         <div class="header">
+
+             <h1 style="margin:5px">To-Do List</h1></div>
+            <form class="todo-form">
+             <input class="todo-input" type="text" id="myInput" placeholder="Add Items...">
+            
+             <span onclick="newElement()" class="add-button">Add</span>
+            </form>
+         
+        
+           <ul class="todo-items" id="myUL">
+
+             <li class="item">buy groceries</li>
+            
+            <li class="item"> make breakfast</li>
+            
+             <li class="checked item"> visit grantparents</li>
+            
+             </ul>
+             <button class="delete-button checkbox" type="button" id="clear-list" onclick="removeAll()">Clear Items</button>
+             <script type="text/javascript" src="js\todolist.js"></script>
+            </div>
+            </body>
+</html>
